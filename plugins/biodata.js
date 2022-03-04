@@ -5,15 +5,14 @@ let handler = async (m, { conn, text }) => {
 let logo = global.logoowner
   let ext= `
 *───────[ BIODATA OWNER ]───────*
-*💌 Nama* : Letta
-*🎨 Umur* : 11
-*🧮 Kelas* : 6
-*📈 Status* : Busy
+*💌 Nama* : LanXzy🤸
+*🎨 Umur* : 15
+*📞 Whatsapp* : wa.me/60189830350
+*📈 Status* : busy
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @ppiowy_
-*🇫  Facebook* : none
-*🏮 Chanel Youtube* : none
+*🧢 Tiktok* : https://vt.tiktok.com/ZSeKqWuAd/
+*🏮 Chanel Youtube* : https://youtube.com/channel/UC3Y7rHuI_OmbvFdL88JF7AQ
 `
 let name = await conn.getName(m.sender)
 
@@ -28,7 +27,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
         "productId": "4938174216214248",
         "title": "───────[ OWNER ]───────",
         "description": '\n\n' + ext,
-        "retailerId": "Itu Owner ku ya ^~^",
+        "retailerId": "G penting G ush chat",
         "url": '',
         "descriptionCount": "999999999",
         "productImageCount": "1",
