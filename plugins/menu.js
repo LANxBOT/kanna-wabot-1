@@ -268,8 +268,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *Author :* LanXzy
-┴ ▸ *Owner :* LynXzy
+│ ▸ *Author :* LanXzy    ?
+┴ ▸ *Owner :* LynXz      ?
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ Tolong jangan dispam ya biar ga delay
@@ -435,10 +435,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "title": "[🎗️] Premium",
                                 "description": "Menampilkan List Harga premium",
                                 "rowId": ".premium"
-                                }, {
-                                "title": "[🔬] Script",
-                                "description": "Script Bot",
-                                "rowId": ".sc"
                                 }, {
                                 "title": "[🎖️] Thanks To",
                                 "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
