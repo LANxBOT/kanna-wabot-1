@@ -5,18 +5,17 @@ let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&s
 let info = `
 ╭═══ *〘 BUY PREMIUM 〙*
 ║ ┅ ๑————————————๑                                         
-║┊ ⌲ *Buy* = _5k/minggu (7 Hari)_
-║┊ ⌲ *Buy* = _15k/bulan (1 bulan)_
-║┊ ⌲ *Buy* = _35k/tahun (12 bulan)_
-║┊ ⌲ *VIP* = _50k/Permanent_
+║┊ ⌲ *Buy* = _Rm 5 (1 minggu)_
+║┊ ⌲ *Buy* = _Rm 10 (2 minggu)_
+║┊ ⌲ *Buy* = _Rm 15 (3 minggu)_
+║┊ ⌲ *VIP* = _Rm 30/Permanent_
 ╰═ ┅ ═══════
 
-╭═══ *〘 PAKET HEMAT 〙*
+╭═══ *〘 PEMBAYARAN 〙*
 ║ ┅ ๑————————————๑
-║┊ ⌲ _20k (Sewa 1 bulan, premium 1 Bulan)_
-║┊ ⌲ _30k (Sewa 2 bulan, premium 1.5 bulan)_
-║┊ ⌲  _45k (8 Bulan sewa, 5 Bulan premium)_
-║┊ ⌲  _65k (all permanent)_
+║┊ ⌲ _Topup/Pin_
+║┊ ⌲ _Digi (60149431385)_
+║┊ ⌲  _Umobile (60189830350)_
 ╰═ ┅ ═══════
 
 ༅ _*KEUNTUNGAN USER PREMIUM*_
@@ -34,7 +33,7 @@ let info = `
 
 ◪ *Jika Minat Hubungi owner kami*
 ◪ *Atau Masuk Group Official Bot*
-_https://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT_
+_https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD_
 
 ▌│█║▌║▌║║▌║▌║█│▌
 ▌│█║▌║▌║║▌║▌║█│▌
