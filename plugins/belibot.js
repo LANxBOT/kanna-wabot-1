@@ -2,17 +2,17 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╭═══ *〘 SEWA 〙*
 ║ ┅ ๑————————————๑
-║┊ ⌲ Sewa = _5k/grup (1 minggu)_
-║┊ ⌲ Sewa = _15k/grup (1 bulan)_
-║┊ ⌲ Sewa = _20k/grup (2 bulan)_
-║┊ ⌲ Sewa = _35k/grup (8 bulan)_                                                                      ║┊ ⌲ Sewa = _45k/grup (12 bulan)_
+║┊ ⌲ Sewa = _Rm 5.00/grup (1 minggu)_
+║┊ ⌲ Sewa = _Rm 10.00/grup (2 minggu)_
+║┊ ⌲ Sewa = _Rm 15.00/grup (3 minggu)_
+║┊ ⌲ Sewa = _Rm 20.00/grup (1 bulan)_                                                                      ║┊ ⌲ Sewa = _45k/grup (12 bulan)_
 ╰═ ┅ ═══════
-╭═══ *〘 PAKET HEMAT 〙*
+╭═══ *〘 PEMBAYARAN 〙*
 ║ ┅ ๑————————————๑
-║┊ ⌲ _20k (Sewa 1 bulan, premium 1 Bulan)_
-║┊ ⌲ _30k (Sewa 2 bulan, premium 1.5 bulan)_
-║┊ ⌲  _45k (8 Bulan sewa, 5 Bulan premium)_
-║┊ ⌲  _65k (all permanent)_
+║┊ ⌲ _TOPUP/PIN_
+║┊ ⌲ _60149431385 (digi)_
+║┊ ⌲ _60189830350 (umobile)_
+║┊ ⌲ owner : wa.me/60149431385
 ╰═ ┅ ═══════
 
 ༅ _*KEUNTUNGAN SEWABOT*_
@@ -24,11 +24,11 @@ let handler = async (m, { conn }) => {
 ✧ *Anti Link On*
 ✧ *Bisa Memasukkan Bot Ke dalam Grup*
 
-*[❗] Jika Group Sepi 2 minggu, bot akan leave*
+*[❗] Jika Group Sepi 2 hari, bot akan leave*
 
 ◪ *Jika Minat Hubungi owner kami*
 ◪ *Atau Masuk Group Official Bot*
-_https://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT_
+_https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD_
 
 ▌│█║▌║▌║║▌║▌║█│▌
 `.trim(), `${wm}`, 'Payment', '#payment', 'Owner', '#Nowner', m)
