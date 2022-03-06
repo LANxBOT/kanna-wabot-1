@@ -1,13 +1,41 @@
-const { MessageType } = require('@adiwajshing/baileys')
+/*const { MessageType } = require('@adiwajshing/baileys')
 const PhoneNumber = require('awesome-phonenumber')
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-  await conn.sendMessage(m.chat, {
+async function handler(m) {
+  let name = 'LanXzy🥀      ?'
+  number = owner[0].replace(/[^0-9]/g, '')
+  let njid = number + '@s.whatsapp.net'
+  let onW = await this.isOnWhatsApp(njid) || { isBusiness: true }
+
+  let name2 = 'LynXzy🥀     ?'
+  number2 = owner[1].replace(/[^0-9]/g, '')
+  let njid2 = number2 + '@s.whatsapp.net'
+  let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
+
+  this.sendMessage(m.chat, {
     contacts: [{
-    "displayName": "LanXzy🥀",
-      "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:Owner botlynXzy\nitem1.TEL;waid=60189830350:60189830350\nitem1.X-ABLabel:📍 Creator\nitem2.EMAIL;type=INTERNET: zeeoneofc@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:https://hardianto.xyz/\nitem3.X-ABLabel:📮 Rest Api\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:ac\nitem4.X-ABLabel:🌍 Region | Otaku 🇯🇵\nitem5.X-ABLabel:───────[ 𝗟𝗬𝗡𝗕𝗢𝗧 ]───────\nEND:VCARD"
-  }, {
-    "displayName": "LynXzy🥀",
-      "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:Whatsapp\nitem1.TEL;waid=0:0\nitem1.X-ABLabel:📍 Whatsapp\nitem2.EMAIL;type=INTERNET:Whatsapp@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:https://faq.whatsapp.com/\nitem3.X-ABLabel:⚙️ Rest Api\nitem4.ADR:;;⛩️ Whatsapp;;;;\nitem4.X-ABADR:ac\nitem4.X-ABLabel:📞 Official Bot Whatsapp\nitem5.X-ABLabel:───────[ ᴠᴇʀɪғʏ ʙʏ ᴡʜᴀᴛsᴀᴘᴘ ]───────\nEND:VCARD"
+      displayname: name, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name.replace(/\n/g, '\\n')};;;
+FN:${name.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}${onW.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid].vname || this.getName(njid)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
+    }, {
+      displayname: name2, vcard: `
+BEGIN:VCARD
+VERSION:3.0
+N:;${name2.replace(/\n/g, '\\n')};;;
+FN:${name2.replace(/\n/g, '\\n')}
+TEL;type=CELL;type=VOICE;waid=${number2}:${PhoneNumber('+' + number2).getNumber('international')}${onW2.isBusiness ? `
+X-WA-BIZ-NAME:${(this.contacts[njid2].vname || this.getName(njid2)).replace(/\n/, '\\n')}
+X-WA-BIZ-DESCRIPTION:${((await this.getBusinessProfile(njid2)).description || '').replace(/\n/g, '\\n')}
+` : ''}
+END:VCARD
+`.trim()
     }]
   }, MessageType.contactsArray, { quoted: m })
 }
@@ -16,4 +44,4 @@ handler.tags = ['info']
 
 handler.command = /^(nowner)$/i
 
-module.exports = handler
+module.exports = handler */
