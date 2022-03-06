@@ -1,4 +1,4 @@
-/*const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@adiwajshing/baileys')
 const PhoneNumber = require('awesome-phonenumber')
 async function handler(m) {
   let name = 'LanXzy🥀      ?'
@@ -44,4 +44,4 @@ handler.tags = ['info']
 
 handler.command = /^(nowner)$/i
 
-module.exports = handler */
+module.exports = handler 
